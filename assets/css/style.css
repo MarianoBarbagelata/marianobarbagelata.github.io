@@ -5,7 +5,7 @@
   --django-color: #2ba977;
   --html-color: #e15525;
   --css-color: #0c68ba;
-  --mongo-color : #4caf50;
+  --postgres-color : #336791;
   --git-color: #f4511e;
   --numpy-color: #4d77cf;
   --pandas-color: #130754;
@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top:hover {
   color: #fff;
   background: #2eafec;
-  transition: background 0.2s ease-in-out;
+  transition: background 0.4s ease-in-out;
 }
 
 /*--------------------------------------------------------------
@@ -611,14 +611,14 @@ section {
   box-shadow: -1px 1px 3px var(--css-color);
 }
 
-.skill-title .mongo:hover .layer span,
-.skill-title .mongo:hover .text {
-  color: var(--mongo-color);
-  border-color: var(--mongo-color);
+.skill-title .postgres:hover .layer span,
+.skill-title .postgres:hover .text {
+  color: var(--postgres-color);
+  border-color: var(--postgres-color);
 }
 
-.skill-title .mongo:hover .layer span {
-  box-shadow: -1px 1px 3px var(--mongo-color);
+.skill-title .postgres:hover .layer span {
+  box-shadow: -1px 1px 3px var(--postgres-color);
 }
 
 .skill-title .git:hover .layer span,
