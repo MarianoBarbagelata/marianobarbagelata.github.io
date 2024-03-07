@@ -9,7 +9,7 @@
   --git-color: #f4511e;
   --numpy-color: #4d77cf;
   --pandas-color: #130754;
-  --tkinter-color: #7d7d7e;
+  --javascript-color: #f7df1e;
   --bash-color: #404040;
   --whatsapp-color: #25d366;
   --github-color: #333;
@@ -659,14 +659,14 @@ section {
   box-shadow: -1px 1px 3px var(--pandas-color);
 }
 
-.skill-title .tkinter:hover .layer span,
-.skill-title .tkinter:hover .text {
-  color: var(--tkinter-color);
-  border-color: var(--tkinter-color);
+.skill-title .javascript:hover .layer span,
+.skill-title .javascript:hover .text {
+  color: var(--javascript-color);
+  border-color: var(--javascript-color);
 }
 
-.skill-title .tkinter:hover .layer span {
-  box-shadow: -1px 1px 3px var(--tkinter-color);
+.skill-title .javascript:hover .layer span {
+  box-shadow: -1px 1px 3px var(--javascript-color);
 }
 
 .skill-title .bash:hover .layer span,
