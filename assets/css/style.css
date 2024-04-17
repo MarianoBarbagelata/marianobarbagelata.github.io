@@ -3,8 +3,8 @@
 	--white-color: #fff;
   --python-color: #366a96;
   --django-color: #2ba977;
-  --html-color: #e15525;
-  --css-color: #0c68ba;
+  --aws-color: #ff9900;
+  --mysql-color: #57717d;
   --postgres-color : #336791;
   --git-color: #f4511e;
   --numpy-color: #4d77cf;
@@ -589,14 +589,14 @@ section {
   box-shadow: -1px 1px 3px var(--python-color);
 }
 
-.skill-title .html:hover .layer span,
-.skill-title .html:hover .text {
-  color: var(--html-color);
-  border-color: var(--html-color);
+.skill-title .aws:hover .layer span,
+.skill-title .aws:hover .text {
+  color: var(--aws-color);
+  border-color: var(--aws-color);
 }
 
-.skill-title .html:hover .layer span {
-  box-shadow: -1px 1px 3px var(--html-color);
+.skill-title .aws:hover .layer span {
+  box-shadow: -1px 1px 3px var(--aws-color);
 }
 
 .skill-title .django:hover .layer span,
@@ -609,14 +609,14 @@ section {
   box-shadow: -1px 1px 3px var(--django-color);
 }
 
-.skill-title .css:hover .layer span,
-.skill-title .css:hover .text {
-  color: var(--css-color);
-  border-color: var(--css-color);
+.skill-title .mysql:hover .layer span,
+.skill-title .mysql:hover .text {
+  color: var(--mysql-color);
+  border-color: var(--mysql-color);
 }
 
-.skill-title .css:hover .layer span {
-  box-shadow: -1px 1px 3px var(--css-color);
+.skill-title .mysql:hover .layer span {
+  box-shadow: -1px 1px 3px var(--mysql-color);
 }
 
 .skill-title .postgres:hover .layer span,
